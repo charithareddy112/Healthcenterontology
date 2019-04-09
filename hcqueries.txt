@@ -1,0 +1,27 @@
+prefix hc:<http://www.healthcenter.org/Charitha/ontology/healthcenter>
+select ?p ?q ?r
+where{
+?p ?q ?r .
+}
+
+
+##############################################################################
+
+Mrs Ruby details
+
+
+select (<http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby> as ?s) ?p ?o ?g { 
+  { <http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby> ?p ?o } 
+union 
+  { graph ?g { <http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby> ?p ?o } } 
+}
+
+##############################################################################
+Mrs Maggie
+
+
+select (<http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie> as ?s) ?p ?o ?g { 
+  { <http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie> ?p ?o } 
+union 
+  { graph ?g { <http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie> ?p ?o } } 
+}

@@ -1,0 +1,36 @@
+
+1) Display personId personName personGender personAddress
+
+PREFIX hospital: <http://www.example.org/charitha/ontology/healthcenter#>
+select ?personId ?personName ?personGender ?personAddress
+where {
+   ?medicalstaff hospital:staffIsInDepartment ?Department .
+   ?medicalstaff hospital:personId ?personId .
+   ?medicalstaff hospital:personName ?personName .
+   ?medicalstaff hospital:personGender ?personGender .
+   ?medicalstaff hospital:personAddress ?personAddress .
+}
+=============================================================
+
+2) Display medical staff 
+
+PREFIX hospital: <http://www.example.org/charitha/ontology/healthcenter#>
+
+select  ?medical_staff
+where {
+   ?operation hospital:operationOnPatient ?patient .
+   ?operation hospital:operationNeedMedicalStaff ?medical_staff .
+}
+
+==============================================================
+
+3) Which departments are there in building?
+
+PREFIX hospital: <http://www.example.org/charitha/ontology/healthcenter#>
+
+select  ?department
+where {
+  	?department rdf:type hospital:Hospital_Department .
+  	?department hospital:departmentIsInBuilding ?building .
+  
+}

@@ -1,0 +1,1916 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.healthcenter.org/Charitha/ontology/healthcenter"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.healthcenter.org/Charitha/ontology/healthcenter"
+     versionIRI="http://www.healthcenter.org/Charitha/ontology/healthcenter">
+    <Prefix name="" IRI="http://www.healthcenter.org/Charitha/ontology/healthcenter"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="hospital" IRI="http://www.semanticweb.org/leizhang/ontologies/2017/3/hospital#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Ontology for HealthCenter</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Healthcenter</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Administrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Anaesthetist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Bed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Cardiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Consultation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Consulting_Room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#In-Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Operating_Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Out-Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Radiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Surgeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#gynecologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/emergency_department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/general_department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/intensive_care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/medical_equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/patient_moniters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/pediatric_intensive_care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/sterilizers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/surgical_tables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/done_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/is_done_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/is_handled_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/is_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/maintained_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/need"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/occupied_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/supervised_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#City"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#State"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#Zipcode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#operationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeDischarged"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/healthcenter_address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/healthcenter_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/healthcenter_phone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Anesthesiology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Cardiology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_DiagnosticImaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_GeneralSurgery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Gynaecology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Alfred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.David"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Jones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Peter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Raymond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ava"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Crystal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Ms.Anna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Ella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Hanna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Julia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Speciality_Anesthesiology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Speciality_Cardiology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Speciality_DiagnosticImaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Speciality_GeneralSurgery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Speciality_Gynaecology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#bed001_in_ward001_in_building001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#bed002_in_ward001_in_building002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#building001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#building002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#operation001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#operation002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#ward001_in_building001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#ward002_in_building002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#ward003_in_building003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ud_health_center"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Administrator"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Anaesthetist"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Bed"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Building"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Cardiologist"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Consultation"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Consulting_Room"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#In-Patient"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Staff"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Office"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Operating_Theatre"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Out-Patient"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Radiologist"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Staff"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Surgeon"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#gynecologist"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#surgery"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/emergency_department"/>
+        <Class IRI="/department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/general_department"/>
+        <Class IRI="/department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/intensive_care"/>
+        <Class IRI="/department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/medical_equipment"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/nurse"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/patient_moniters"/>
+        <Class IRI="/medical_equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/pediatric_intensive_care"/>
+        <Class IRI="/department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/sterilizers"/>
+        <Class IRI="/medical_equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/surgical_tables"/>
+        <Class IRI="/medical_equipment"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Anaesthetist"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Bed"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#bed001_in_ward001_in_building001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Bed"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#bed002_in_ward001_in_building002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Building"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#building001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Building"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#building002"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Anesthesiology"/>
+        <Literal>07926273828</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Anesthesiology"/>
+        <Literal>Anaesthetics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Cardiology"/>
+        <Literal>07926273827</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Cardiology"/>
+        <Literal>Cardiology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_DiagnosticImaging"/>
+        <Literal>07926273829</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_DiagnosticImaging"/>
+        <Literal>Diagnostic Imaging</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_GeneralSurgery"/>
+        <Literal>07926273830</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_GeneralSurgery"/>
+        <Literal>General Surgery</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Gynaecology"/>
+        <Literal>07926273831</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Department_Gynaecology"/>
+        <Literal>Gynaecology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Alfred"/>
+        <Literal>Room 089,crescent place, SO14 0BH, Southampton,United Kindom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Alfred"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Alfred"/>
+        <Literal>Cardiologist_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Alfred"/>
+        <Literal>Alfred</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Alfred"/>
+        <Literal>+86 13681197396</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.David"/>
+        <Literal>Room 001, crescent place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.David"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.David"/>
+        <Literal>Radiologist_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.David"/>
+        <Literal>David</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.David"/>
+        <Literal>+86 13971875043</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Jones"/>
+        <Literal>Room002, Crescent Place, BO14 0BH, Southampton, UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Jones"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Jones"/>
+        <Literal>Surgeon_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Jones"/>
+        <Literal>Jones</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Jones"/>
+        <Literal>+86 13000010001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Peter"/>
+        <Literal>Room005, Crescent Place, SO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Peter"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Peter"/>
+        <Literal>Anaesthetist_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Peter"/>
+        <Literal>Peter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Peter"/>
+        <Literal>+8613110021002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Raymond"/>
+        <Literal>Room 006, Crescent Place, BO14 0BH, Southampton, UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Raymond"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Raymond"/>
+        <Literal>Gynecologist_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Raymond"/>
+        <Literal>Raymond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mr.Raymond"/>
+        <Literal>+86 13110051005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ava"/>
+        <Literal>Room 008, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ava"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ava"/>
+        <Literal>Cardiologist_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ava"/>
+        <Literal>Ava</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ava"/>
+        <Literal>+86 13110071007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Crystal"/>
+        <Literal>Room011, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Crystal"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Crystal"/>
+        <Literal>Radiologist_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Crystal"/>
+        <Literal>Crystal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Crystal"/>
+        <Literal>+8613212001200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+        <Literal>Room 012,Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+        <Literal>Anaesthetist_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+        <Literal>Jane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Jane"/>
+        <Literal>+8613310331033</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby"/>
+        <Literal>Room 031, Crescent Place, BO14 0BH, Southampton, UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby"/>
+        <Literal>Gynecologist_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby"/>
+        <Literal>Ruby</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Mrs.Ruby"/>
+        <Literal>+86 13410341034</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Ms.Anna"/>
+        <Literal>Room 091, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Ms.Anna"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Ms.Anna"/>
+        <Literal>Surgeon_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Ms.Anna"/>
+        <Literal>Anna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Doctor_Ms.Anna"/>
+        <Literal>+8613510351035</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Ella"/>
+        <Literal>Room 099, Crescent Place,BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Ella"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Ella"/>
+        <Literal>Nurse_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Ella"/>
+        <Literal>Ella</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Ella"/>
+        <Literal>+86 13510361036</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Hanna"/>
+        <Literal>Room 022, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Hanna"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Hanna"/>
+        <Literal>Nurse_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Hanna"/>
+        <Literal>Hanna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Hanna"/>
+        <Literal>+86 023 80661278</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Julia"/>
+        <Literal>Room100, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Julia"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Julia"/>
+        <Literal>Nurse_003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Julia"/>
+        <Literal>Julia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Nurse_Ms.Julia"/>
+        <Literal>+86 13810381038</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-20T09:12:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal>189cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal>Room 087, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal>Patient_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal>Bruce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruce"/>
+        <Literal>+86 13554667865</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-24T11:01:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal>161cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal>Room 233, Crescent Place, BO15 0SY, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal>Patient_002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal>Bruno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Bruno"/>
+        <Literal>+86 13877663421</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-30T13:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal>173cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal>Room1021, Crescent place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal>Patient_003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal>Joe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mr.Joe"/>
+        <Literal>+86 13312341234</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-03T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal>171cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal>Room 991, Crescent Place, BO14 0BH, Southampton,UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal>Patient_006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal>Maggie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#Patient_Mrs.Maggie"/>
+        <Literal>+86 17767879834</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#operationDate"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#operation001"/>
+        <Literal>2016-05-23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#operationDate"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#operation002"/>
+        <Literal>2016-07-23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#ward001_in_building001"/>
+        <Literal>30 square meters</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#ward002_in_building002"/>
+        <Literal>80 square meters</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <NamedIndividual IRI="http://www.example.org/Charitha/ontology/hospital#ward003_in_building003"/>
+        <Literal>50 square meter</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/done_on"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#surgery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/is_done_at"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#surgery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/is_handled_by"/>
+        <Class IRI="/medical_equipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/is_in"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/is_in"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/maintained_by"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/need"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#surgery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/occupied_by"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Bed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/supervised_by"/>
+        <Class IRI="/department"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/done_on"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/is_done_at"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Operating_Theatre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/is_handled_by"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Administrator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/is_in"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/is_in"/>
+        <Class IRI="/general_department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/maintained_by"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Administrator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/need"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Medical_Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/occupied_by"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/supervised_by"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Staff"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#operationDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeDischarged"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#City"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#State"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#Zipcode"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#operationDate"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#surgery"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeDischarged"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Room"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/healthcenter_address"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/healthcenter_name"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/healthcenter_phone"/>
+        <Class IRI="http://www.example.org/Charitha/ontology/hospital#Healthcenter"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#City"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#State"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#Zipcode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentContactPhone"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#departmentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#operationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientAge"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientDatetimeDischarged"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#patientHeight"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personGender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#personPhone"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.example.org/Charitha/ontology/hospital#roomSize"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/healthcenter_address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/healthcenter_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/healthcenter_phone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Administrator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">not medical staff, just administrator.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Administrator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Administrator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Anaesthetist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An anaesthetist is a doctor who specializes in giving anaesthetics to patients.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Anaesthetist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Anaesthetist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Bed</IRI>
+        <Literal>Bed in ward.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Bed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Building</IRI>
+        <Literal>Building in the hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Building</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Buiding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Cardiologist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"> A cardiologist is a doctor who specializes in the heart and its diseases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Cardiologist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cardiologist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#City</IRI>
+        <Literal>city in which the health center is present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#City</IRI>
+        <Literal>city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Consultation</IRI>
+        <Literal>Consultation, not need operations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Consultation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Consultation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Consulting_Room</IRI>
+        <Literal>Consulting Room</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Consulting_Room</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Consulting Room</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Doctor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Doctor comprise of anaesthetist, cardiologist, gynecologist, radiologist, surgeon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Doctor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Doctor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Healthcenter</IRI>
+        <Literal>healthcenter is a place where people are treated for their illness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Healthcenter</IRI>
+        <Literal>health center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#In-Patient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An inpatient is someone who stays in a hospital while they receive their treatment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#In-Patient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">In-Patitent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Infrastructure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Infrastrructure of a hospital, including Buidings, Rooms, Beds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Infrastructure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Medical_Procedure</IRI>
+        <Literal>Medical Procedures, includes consultation and Operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Medical_Procedure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Medical Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Medical_Staff</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">medical staff of the hospital, including doctor and nurse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Medical_Staff</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Medical Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Office</IRI>
+        <Literal>Office in hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Office</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Operating_Theatre</IRI>
+        <Literal>Operating Theatre in the hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Operating_Theatre</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Operating Theatre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Out-Patient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An inpatient is someone who no need stays in a hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Out-Patient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Out-Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Patient</IRI>
+        <Literal>Patient includes in-patient and out-patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Patient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Person</IRI>
+        <Literal>Person in the hospital, including Patient and Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Person</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Radiologist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A radiologist is a doctor who is trained in radiology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Radiologist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Radiologist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Room</IRI>
+        <Literal>Room in the building of hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Room</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Room</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Staff</IRI>
+        <Literal>staff of the hospital, including administrator and medical staff.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Staff</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#State</IRI>
+        <Literal>state in which healthcenter is present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#State</IRI>
+        <Literal>state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Surgeon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A surgeon is a doctor who is specially trained to perform surgery. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Surgeon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Surgeon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Zipcode</IRI>
+        <Literal>zip code of the health center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#Zipcode</IRI>
+        <Literal>zip code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#departmentContactPhone</IRI>
+        <Literal>this property is to get the contact phone of a department 
+Domain: department
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#departmentContactPhone</IRI>
+        <Literal>departmentcontact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#departmentName</IRI>
+        <Literal>this property is to get the name of a department 
+Domain: Department
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#departmentName</IRI>
+        <Literal>department name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#gynecologist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a physician specializing in gynecology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#gynecologist</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gynecologist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#operationDate</IRI>
+        <Literal>this property is to get the date of a operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#operationDate</IRI>
+        <Literal>operationdate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientAge</IRI>
+        <Literal>this property is to get the age of a patient 
+Domain: Patient
+Range:int</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientAge</IRI>
+        <Literal>patient age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted</IRI>
+        <Literal>this property is to get the date of a patient admitted.
+Domain: Patient
+Range:dateTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientDatetimeAdmitted</IRI>
+        <Literal>patient admitted date and time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientDatetimeDischarged</IRI>
+        <Literal>this property is to get the date of a patient dischanged. 
+Domain: Patient
+Range:dateTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientDatetimeDischarged</IRI>
+        <Literal>patient discharged date and time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientHeight</IRI>
+        <Literal>this property is to get the height of a patient 
+Domain: Patient
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#patientHeight</IRI>
+        <Literal>patient height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personAddress</IRI>
+        <Literal>this property is to get the family address of a person (include patient and staff) 
+Domain: Person
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personAddress</IRI>
+        <Literal>person address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personGender</IRI>
+        <Literal>this property is to get the gender of a person (including patient and staff) 
+Domain: Person
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personGender</IRI>
+        <Literal>person gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personId</IRI>
+        <Literal>this property is to get the id of a person (including patient and staff) 
+Domain: Person
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personId</IRI>
+        <Literal>person id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personName</IRI>
+        <Literal>this property is to get the name of a person in the hospital (including patient and staff) 
+Domain: Person
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personName</IRI>
+        <Literal>person name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personPhone</IRI>
+        <Literal>this property is to get the phone of a person in the hospital (including patient and staff) 
+Domain: Person
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#personPhone</IRI>
+        <Literal>person phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#roomSize</IRI>
+        <Literal>this property is to get the size of a room in the hospital
+Domain: Room
+Range:string</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#roomSize</IRI>
+        <Literal>room size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#surgery</IRI>
+        <Literal>Operation includes Anaesthetic operation and Non-Anaesthetic operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.example.org/Charitha/ontology/hospital#surgery</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/department</IRI>
+        <Literal>healthcenter has several departments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/department</IRI>
+        <Literal>department</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/done_on</IRI>
+        <Literal>surgery done on patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/done_on</IRI>
+        <Literal>done on</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/emergency_department</IRI>
+        <Literal>department for emergencies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/emergency_department</IRI>
+        <Literal>emergency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/general_department</IRI>
+        <Literal>department for general illness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/general_department</IRI>
+        <Literal>general department</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/healthcenter_address</IRI>
+        <Literal>where is the health center located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthcenter_address</IRI>
+        <Literal>healthcenter address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/healthcenter_name</IRI>
+        <Literal>Name of the health center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthcenter_name</IRI>
+        <Literal>healthcenter name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/healthcenter_phone</IRI>
+        <Literal>phone of the health center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthcenter_phone</IRI>
+        <Literal>healthcenter phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/intensive_care</IRI>
+        <Literal>unit for intensive care</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/intensive_care</IRI>
+        <Literal>ICU</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/is_done_at</IRI>
+        <Literal>surgery is done at operation theatre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/is_done_at</IRI>
+        <Literal>is done at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/is_handled_by</IRI>
+        <Literal>medical equipment is handled by administrator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/is_handled_by</IRI>
+        <Literal>is handled by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/is_in</IRI>
+        <Literal>building is in health center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/is_in</IRI>
+        <Literal>is in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/maintained_by</IRI>
+        <Literal>room maintained by administrator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/maintained_by</IRI>
+        <Literal>maintained by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/medical_equipment</IRI>
+        <Literal>equipment used for surgeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/medical_equipment</IRI>
+        <Literal>medical equipment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/need</IRI>
+        <Literal>surgery need medical staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/need</IRI>
+        <Literal>need</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/nurse</IRI>
+        <Literal>nurse is a medical staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/nurse</IRI>
+        <Literal>nurse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/occupied_by</IRI>
+        <Literal>bed occupied by patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/occupied_by</IRI>
+        <Literal>occupied by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/pediatric_intensive_care</IRI>
+        <Literal>unit for pediatrics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/pediatric_intensive_care</IRI>
+        <Literal>pic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/sterilizers</IRI>
+        <Literal>sterilizers used in surgeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sterilizers</IRI>
+        <Literal>sterilizers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/supervised_by</IRI>
+        <Literal>department supervised by staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/supervised_by</IRI>
+        <Literal>supervised by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/surgical_tables</IRI>
+        <Literal>tables used for surgeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/surgical_tables</IRI>
+        <Literal>surgical tables</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
